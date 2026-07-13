@@ -12,7 +12,7 @@ public class WebConfig implements WebMvcConfigurer {
     @Override
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/**")
-                // ఇక్కడ నీ Vercel లింక్ ఇవ్వు
+                // ఇక్కడ నీ Vercel లింక్ 
                 .allowedOrigins("https://smart-store-frontend-eight.vercel.app") 
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                 .allowedHeaders("*")
